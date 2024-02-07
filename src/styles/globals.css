@@ -49,18 +49,7 @@ body{
   align-items: center;
   height: 200px;
 } */
-/* .card
-{
-  width: 98.7vw;
-  height: 100vh;
-  background:rgb(20,50,100,0.8) ;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: sticky;
-  top: 0;
-} */
+
 /* .card img 
 {
   position: absolute;
@@ -84,4 +73,16 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+} */
+/* .card
+{
+  width: 98.7vw;
+  height: 100vh;
+  background:rgb(20,50,100,0.8) ;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
 } */
