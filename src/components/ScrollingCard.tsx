@@ -6,7 +6,9 @@ const ScrollingCard = () => {
     <div className="header">Header</div>
    <div>
    <div  className="card">Card1</div>
-    <div  className="card">Card2</div>
+    <div  className="card">
+      <img src="https://source.unsplash.com/random/1000x1000" alt=""  />
+      Card2</div>
     <div  className="card">Card3</div>
     <div className="card" >Card4</div>
     <div  className="card">Card5</div>
