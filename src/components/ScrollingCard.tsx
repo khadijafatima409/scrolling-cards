@@ -17,12 +17,9 @@ const ScrollingCard = () => {
     </div>
    <div>
    <section className=" w-full h-[100vh] bg-[url('/jocke-wulcan-KLOW1bD616Y-unsplash.jpg')] bg-cover bg-center bg-no-repeat  text-white flex justify-center items-center sticky top-0">
-   
         <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col justify-center items-center">
-        <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col justify-center items-center">
-        <h2 className="font-bold text-3xl mb-5 ">Dare to Dream</h2>
-        <p className="w-[700px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad laudantium, aliquam deleniti consectetur dicta id vitae unde rerum architecto repellat dolores quam obcaecati non magni nemo voluptatibus soluta vel tempore!</p>
-        </div>
+          <h2 className="font-bold text-3xl mb-5 ">Dare to Dream</h2>
+          <p className="w-[700px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad laudantium, aliquam deleniti consectetur dicta id vitae unde rerum architecto repellat dolores quam obcaecati non magni nemo voluptatibus soluta vel tempore!</p>
         </div>
    </section>
     <section  className=" w-full h-[100vh] bg-[url('/jahanzeb-ahsan-UziXisDkH_s-unsplash.jpg')] bg-cover bg-center bg-no-repeat text-white flex justify-center items-center sticky top-0">  
