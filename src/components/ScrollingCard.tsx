@@ -1,43 +1,40 @@
+import Image from "next/image";
 import React from "react";
 
 const ScrollingCard = () => {
   return( <>
 
-    <div className="header">Header</div>
+    <div className="header bg-black-pearl text-white h-[200px] flex justify-center items-center">Header</div>
    <div>
-   <div  className="card">
-   <img src="/jon-tyson-AMXJL_MvW4I-unsplash.jpg" alt=""  />
-        <div className="card-content">
+   <section className=" w-full h-[100vh] bg-[url('/jon-tyson-AMXJL_MvW4I-unsplash.jpg')] bg-cover bg-center bg-no-repeat  text-white flex justify-center items-center sticky top-0">
+   
+        <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col justify-center items-center">
         Card1
         </div>
-   </div>
-    <div  className="card">
-      <img src="/jahanzeb-ahsan-UziXisDkH_s-unsplash.jpg" alt=""  />
-        <div className="card-content ">
+   </section>
+    <section  className=" w-full h-[100vh] bg-[url('/jahanzeb-ahsan-UziXisDkH_s-unsplash.jpg')] bg-cover bg-center bg-no-repeat text-white flex justify-center items-center sticky top-0">  
+        <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col justify-center items-center">
         <h2 className="font-bold text-3xl mb-5 ">Card2</h2>
         <p className="w-[700px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad laudantium, aliquam deleniti consectetur dicta id vitae unde rerum architecto repellat dolores quam obcaecati non magni nemo voluptatibus soluta vel tempore!</p>
         </div>
-    </div>
-    <div  className="card">
-       <img src="/averie-woodard-5d20kdvFCfA-unsplash (1).jpg" alt=""  />
-        <div className="card-content">
+    </section>
+    <section  className=" w-full h-[100vh] bg-[url('/fons-heijnsbroek-B-PxcH2sx5w-unsplash.jpg')] bg-cover bg-center bg-no-repeat text-white flex justify-center items-center sticky top-0">   
+        <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col justify-center items-center">
         Card3
         </div>
-    </div>
-    <div className="card" >
-    <img src="/jon-tyson-AMXJL_MvW4I-unsplash.jpg" alt=""  />
-        <div className="card-content">
+    </section>
+    <section className="w-full h-[100vh] bg-[url('/jon-tyson-AMXJL_MvW4I-unsplash.jpg')] bg-cover bg-center bg-no-repeat text-white flex justify-center items-center sticky top-0" >
+        <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col justify-center items-center">
         Card4
         </div>
-    </div>
-    <div  className="card">
-    <img src="/fons-heijnsbroek-B-PxcH2sx5w-unsplash.jpg" alt=""  />
-        <div className="card-content">
+    </section>
+    <section  className=" w-full h-[100vh] bg-[url('/fons-heijnsbroek-B-PxcH2sx5w-unsplash.jpg')] bg-cover bg-center bg-no-repeat text-white flex justify-center items-center sticky top-0">
+        <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col justify-center items-center">
         Card5
         </div>
-    </div>
+    </section>
    </div>
-    <div className="footer">Footer</div>
+    <div className=" bg-black-pearl text-white h-[200px] flex justify-center items-center">Footer</div>
 
   </>)
 };
