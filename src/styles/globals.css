@@ -51,11 +51,13 @@ body{
 }
 .card
 {
-  width: 100vw;
+  /* width: 98.7vw; */
   height: 100vh;
   background:rgb(20,50,100,0.8) ;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
