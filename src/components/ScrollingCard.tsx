@@ -4,16 +4,16 @@ import React from "react";
 const ScrollingCard = () => {
   return( <>
 
-    <div className="header bg-black-pearl text-white h-[200px] flex justify-center items-center">
-      <div>
+    <div className="header bg-black-pearl text-white h-[70px] flex justify-around gap-28 items-center ">
+      <div >
         <Image src="/logo.png" alt="" height={100} width={100}/>
       </div>
       <ul className="flex gap-5 text-lg">
         <li>builds</li>
         <li>n&w</li>
-        <li>join</li>
+        <li>join </li>
       </ul>
-      <button>Start</button>
+      <button className="bg-white rounded-full py-3 px-5 text-base font-bold outline-none text-black">Start</button>
     </div>
    <div>
    <section className=" w-full h-[100vh] bg-[url('/jocke-wulcan-KLOW1bD616Y-unsplash.jpg')] bg-cover bg-center bg-no-repeat  text-white flex justify-center items-center sticky top-0">
@@ -47,7 +47,7 @@ const ScrollingCard = () => {
         </div>
     </section>
    </div>
-    <div className=" bg-black-pearl text-white h-[200px] flex justify-center items-center">Footer</div>
+    <div className=" bg-black-pearl text-white h-[100px] flex justify-center items-center">Footer</div>
 
   </>)
 };
