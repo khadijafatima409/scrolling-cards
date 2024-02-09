@@ -44,7 +44,7 @@ const ScrollingCard = () => {
         </div>
     </section>
    </div>
-    <div className=" bg-black-pearl text-white h-[100px] flex justify-center items-center">Footer</div>
+    <div className=" bg-black-pearl text-white h-[70px] flex justify-center items-center">Footer</div>
 
   </>)
 };
