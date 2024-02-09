@@ -16,11 +16,11 @@ const ScrollingCard = () => {
       <button className="bg-white rounded-full py-3 px-5 text-base font-bold outline-none text-black">Start</button>
     </div>
    <div>
-      {sectionsData.map((section, index) => (
-        <section key={index} className="w-full h-[100vh]  bg-cover bg-center bg-no-repeat text-white flex justify-center items-center sticky top-0">
+      {SECTIONS_DATA.map((section, index) => (
+        <section key={index} className="w-full h-[100vh] text-white flex justify-center items-center sticky top-0">
           <Image src={section.imageUrl} height={1000} width={1000} alt="" className="h-[100vh] w-[100%] object-cover " />
-          <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col justify-center items-center">
-            <h2 className="font-bold text-3xl mb-5 ">{section.title}</h2>
+          <div className="absolute h-[100%] w-[100%] gap-7 left-0 top-0 z-20 flex flex-col justify-center items-center">
+            <h2 className="font-bold text-3xl ">{section.title}</h2>
             <p className="w-[700px] text-center">{section.content}</p>
           </div>
         </section>
@@ -34,7 +34,7 @@ const ScrollingCard = () => {
 
 export default ScrollingCard;
 
-const sectionsData = [
+const SECTIONS_DATA = [
   {
     title: 'Dare to Dream. Dare to Build.',
     content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit...',
