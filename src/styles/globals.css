@@ -124,7 +124,7 @@ body{
 {
   position: sticky;
   top: 0;
-  padding-top: 2*1.5em;
+  padding-top: calc(var(--index)* 1.5em);
 }
 #card1 .card-body
 {
@@ -144,8 +144,25 @@ body{
   background-color: #9cadce;
 }
 
-#card1 .card-body
+#card4 .card-body
 {
   
   background-color: #d4afb9;
+}
+
+.card-body
+{
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow:0 0 30px 0 rgba(0,0,0,0.3);
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2
+{
+  font-size: 2.5em;
+  font-weight: bold;
 }
