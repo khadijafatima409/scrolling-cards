@@ -1,0 +1,27 @@
+/* 
+body
+{
+  background-color: black;
+  font-family: Arial,sans-serif;
+}
+:root {
+  --cards:4;
+  --cardsHeight:87vh;
+  --cardTopPadding:1.5em;
+  --cardMargin:4vw;
+
+} */
+.container
+{
+  width: 90%;
+  margin: 0 auto;
+
+}
+#cards
+{
+  list-style: none;
+  padding-left: 0; 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4,87vh);
+}
