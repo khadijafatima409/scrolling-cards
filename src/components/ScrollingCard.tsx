@@ -17,9 +17,10 @@ const ScrollingCard = () => {
     </div>
    <div>
    <section className=" w-full h-[100vh] bg-[url('/jocke-wulcan-KLOW1bD616Y-unsplash.jpg')] bg-cover bg-center bg-no-repeat  text-white flex justify-center items-center sticky top-0">
-        <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col justify-center items-center">
-          <h2 className="font-bold text-3xl mb-5 ">Dare to Dream</h2>
+        <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex gap-10 flex-col justify-center items-center">
+          <h2 className="font-bold text-3xl text-center ">Dare to Dream. <br />Dare to Build.</h2>
           <p className="w-[700px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad laudantium, aliquam deleniti consectetur dicta id vitae unde rerum architecto repellat dolores quam obcaecati non magni nemo voluptatibus soluta vel tempore!</p>
+          <button className="bg-white rounded-full py-3 px-5 text-base font-bold outline-none text-black">Explore</button>
         </div>
    </section>
     <section  className=" w-full h-[100vh] bg-[url('/jahanzeb-ahsan-UziXisDkH_s-unsplash.jpg')] bg-cover bg-center bg-no-repeat text-white flex justify-center items-center sticky top-0">  
@@ -29,18 +30,24 @@ const ScrollingCard = () => {
         </div>
     </section>
     <section  className=" w-full h-[100vh] bg-[url('/fons-heijnsbroek-B-PxcH2sx5w-unsplash.jpg')] bg-cover bg-center bg-no-repeat text-white flex justify-center items-center sticky top-0">   
-        <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col justify-center items-center">
-        Card3
+    <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex gap-10 flex-col justify-center items-center">
+          <h2 className="font-bold text-3xl text-center ">See how far you can get  <br />in just one weekend</h2>
+          <p className="w-[700px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad laudantium, aliquam deleniti consectetur dicta id vitae unde rerum architecto repellat dolores quam obcaecati non magni nemo voluptatibus soluta vel tempore!</p>
+          <button className="bg-white rounded-full py-3 px-5 text-base font-bold outline-none text-black">Explore</button>
         </div>
     </section>
     <section className="w-full h-[100vh] bg-[url('/jon-tyson-AMXJL_MvW4I-unsplash.jpg')] bg-cover bg-center bg-no-repeat text-white flex justify-center items-center sticky top-0" >
-        <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col justify-center items-center">
-        Card4
+    <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col gap-10 justify-center items-center">
+        <h1 className="text-4xl text-bold">Card4</h1>
+        <p className="w-[700px] text-center text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad laudantium, aliquam deleniti consectetur dicta id vitae unde rerum architecto repellat dolores quam obcaecati non magni nemo voluptatibus soluta vel tempore!</p>
+        <button className="bg-white rounded-full py-3 px-5 text-base font-bold outline-none text-black">Explore</button>
         </div>
     </section>
-    <section  className=" w-full h-[100vh] bg-[url('/fons-heijnsbroek-B-PxcH2sx5w-unsplash.jpg')] bg-cover bg-center bg-no-repeat text-white flex justify-center items-center sticky top-0">
-        <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col justify-center items-center">
-        Card5
+    <section  className=" w-full h-[100vh] bg-[url('/client.jpg')] bg-cover bg-center bg-no-repeat text-white flex justify-center items-center sticky top-0">
+        <div className="absolute h-[100%] w-[100%] left-0 top-0 z-20 flex flex-col gap-10 justify-center items-center">
+        <h1 className="text-4xl text-bold">Card5</h1>
+        <p className="w-[700px] text-center text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad laudantium, aliquam deleniti consectetur dicta id vitae unde rerum architecto repellat dolores quam obcaecati non magni nemo voluptatibus soluta vel tempore!</p>
+        <button className="bg-white rounded-full py-3 px-5 text-base font-bold outline-none text-black">Explore</button>
         </div>
     </section>
    </div>
