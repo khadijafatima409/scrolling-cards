@@ -60,53 +60,48 @@ body{
 }
 
 #card1
-{
-  --index:1
+{ 
+  padding-top:10px ;
 }
 
 #card2
-{
-  --index:2
+{ 
+  padding-top: 40px;
 }
 
 #card3
-{
-  --index:3
+{ 
+  padding-top: 80px;
 }
 
 #card4
 {
-  --index:4
+  padding-top: 120px;
 }
 
 .card
 {
   position: sticky;
   top: 0;
-  padding-top: calc(var(--index)* 1.5em);
 }
 
 #card1 .card-body
 {
-  
   background-color: #52b2cf;
 }
 
 #card2 .card-body
-{
-  
+{ 
   background-color: #7EC4Cf;
 }
 
 #card3 .card-body
-{
-  
+{ 
   background-color: #9cadce;
 }
 
 #card4 .card-body
-{
-  
+{ 
   background-color: #d4afb9;
 }
 
@@ -116,7 +111,7 @@ body{
   padding: 30px;
   border-radius: 50px;
   box-shadow:0 0 30px 0 rgba(0,0,0,0.3);
-  height: 87vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
