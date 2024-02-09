@@ -4,7 +4,7 @@ import React from "react";
 const ScrollingCard = () => {
   return( <>
 
-    <div className="header bg-black-pearl text-white h-[70px] flex justify-around gap-28 items-center ">
+    <div className="bg-black-pearl text-white h-[70px] flex justify-around gap-28 items-center ">
       <div >
         <Image src="/logo.png" alt="" height={100} width={100}/>
       </div>
