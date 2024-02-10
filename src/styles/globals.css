@@ -32,25 +32,25 @@ body{
   margin-bottom: 4vw;
 } */
 
-/* #card1
-{ 
-  padding-top:10px ;
-}
+  /* #card1
+  { 
+    padding-top:10px ;
+  }
 
-#card2
-{ 
-  padding-top: 40px;
-}
+  #card2
+  { 
+    padding-top: 40px;
+  }
 
-#card3
-{ 
-  padding-top: 80px;
-}
+  #card3
+  { 
+    padding-top: 80px;
+  }
 
-#card4
-{
-  padding-top: 120px;
-} */
+  #card4
+  {
+    padding-top: 120px;
+  } */
 
 /* .card
 {
@@ -88,9 +88,9 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 h2
 {
   font-size: 2.5em;
   font-weight: bold;
-} */
+}
