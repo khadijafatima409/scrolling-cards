@@ -1,6 +1,6 @@
 import Head from "next/head";
 import ScrollingCard from "@/components/ScrollingCard";
-import ScrollCardsOnScroll from "@/components/ScrollCardsOnScroll";
+import ScrollCardsOnScroll from "@/components/CardsOnScroll";
 import Link from "next/link";
 
 

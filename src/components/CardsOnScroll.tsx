@@ -1,6 +1,5 @@
 import React from 'react'
-import classNames from 'classnames'
-const ScrollCardsOnScroll = () => {
+const CardsOnScroll = () => {
   return (
 
     <div className="container mx-auto w-[90%]">
@@ -20,7 +19,7 @@ const ScrollCardsOnScroll = () => {
   ) 
 }
 
-export default ScrollCardsOnScroll
+export default CardsOnScroll
 
 const cardsData = [
   { bgColor: '#52b2cf', padding: 10, text: 'Card 1' },
