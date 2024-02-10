@@ -8,7 +8,8 @@ const ScrollCardsOnScroll = () => {
         {cardsData.map((card, index) => (
           <li key={index} className="sticky top-0" style={{ paddingTop: `${card.padding}px` }}>
             <div
-              className={`bg-[${card.bgColor}] p-7 h-[85vh] flex justify-center items-center rounded-[50px]`}
+              className=" p-7 h-[85vh] flex justify-center items-center rounded-[50px]"
+              style={{backgroundColor:`${card.bgColor}`}}
             >
               <h2 className="text-5xl font-bold">{card.text}</h2>
             </div>
