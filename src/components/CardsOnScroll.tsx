@@ -1,7 +1,6 @@
 import React from 'react'
 const CardsOnScroll = () => {
   return (
-
     <div className="container mx-auto w-[90%]">
       <ul className="list-none grid grid-cols-1 grid-rows-4 gap-[4vw] pb-4">
         {cardsData.map((card, index) => (
@@ -16,6 +15,7 @@ const CardsOnScroll = () => {
         ))}
       </ul>
     </div>
+
   ) 
 }
 
