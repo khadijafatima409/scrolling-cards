@@ -17,7 +17,7 @@ const ScrollCardsOnScroll = () => {
         ))}
       </ul>
     </div>
-  )
+  ) 
 }
 
 export default ScrollCardsOnScroll

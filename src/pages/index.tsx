@@ -1,6 +1,7 @@
 import Head from "next/head";
 import ScrollingCard from "@/components/ScrollingCard";
 import ScrollCardsOnScroll from "@/components/ScrollCardsOnScroll";
+import Link from "next/link";
 
 
 
@@ -12,7 +13,10 @@ export default function Home() {
       </Head>
       <ScrollingCard/>
       <br />
-      <ScrollCardsOnScroll/>
+      
+      <Link href="/animated-card">
+          <p className="text-center font-bold text-4xl underline text-red-900">Go to On Scroll Cards</p>
+      </Link>
     </main>
   );
 }
